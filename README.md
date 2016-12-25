@@ -4,5 +4,11 @@ This package provides simple wrapping around saving and reading JSON files (stre
 
 Every single hit I searched, for "JSON files reading writing", is doing reading like this. They are actually not wrong, but just not ideal, especially when it comes to big JSON files.
 
-Hence, this simple JSON files reading writing wrapping package. Here is a [simple demo code](https://github.com/suntong/lang/blob/master/lang/Go/src/ds/jsonfile.go).
+Hence, this simple JSON files reading writing wrapping package.
+
+## Examples
+
+- Here is a [simple demo code to read/write JSON files](https://github.com/suntong/lang/blob/master/lang/Go/src/ds/jsonfile.go).
+
+- Here is a [demo that gets JSON from web url](https://github.com/suntong/lang/blob/master/lang/Go/src/ds/jsonfile-http.go).
 
